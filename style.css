@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Nunito", sans-serif;
+
+    color: black;
+}
+
+.top-bar {
+
+    background-color: #122ab2;
+
+}
+
+.top-bar-menu {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navMenu {
+    background: #2c70ff;
+    padding: 30px 0;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.menu-logo a {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
+}
+
+.titulo {
+    width: 960px;
+    margin: auto;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+.titulo hr {
+    max-width: 960px;
+    margin: 20px auto;
+    border: none;
+    height: 2px;
+    background-color: #2c70ff;
+}
+
+.sobre {
+    font-size: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-texto {
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav,
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.Produtos hr {
+    max-width: 963px;
+    margin: 20px auto;
+    border: none;
+    height: 2px;
+    background-color: #2c70ff;
+}
+
+.Produtos h1 {
+    font-size: 30px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-end;
+    margin: auto;
+
+}
+
+.produto-purple,
+.produto-pink,
+.produto-blue {
+    width: 250px;
+    background-color: rgb(250, 249, 249);
+}
+
+.produto-purple h2,
+.produto-pink h2,
+.produto-blue h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: gray;
+    padding: 30px;
+}
+
+.produto-purple img,
+.produto-pink img,
+.produto-blue img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+} 
+
+.produto-purple {
+    border-top: 8px solid rgb(195, 2, 195);
+}
+
+.produto-pink {
+    border-top: 8px solid rgb(233, 69, 96);
+
+}
+
+.produto-blue {
+    border-top: 8px solid rgb(12, 243, 255);
+}
+
+
